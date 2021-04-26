@@ -1,4 +1,6 @@
-import { User } from "../../services/types"
+import { User } from '../../services/types'
+
+import s from './style.module.scss'
 
 interface Props {
     users: User[]
@@ -6,12 +8,12 @@ interface Props {
 
 export const Table: React.FC<Props> = ({users}) => {
     return (
-        <table>
+        <table className={s.root}>
             <thead>
                 <tr>
-                    <th>Имя</th>
-                    <th>Номер</th>
-                    <th>Возраст</th>
+                    <th>Name</th>
+                    <th>Phone</th>
+                    <th>Age</th>
                 </tr>
             </thead>
             <tbody>

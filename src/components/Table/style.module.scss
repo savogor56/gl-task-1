@@ -1,0 +1,18 @@
+.root {
+  background: #e8eaeb;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border: 1px solid #dbd4d4;
+  th, td {
+    padding: 18px 28px 18px;
+    text-align: center;
+  }
+  th {
+    padding-top:22px;
+    text-shadow: 1px 1px 1px #fff;
+  }
+  td {
+    background: #fefefe;
+  }
+}
